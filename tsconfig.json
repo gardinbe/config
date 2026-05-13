@@ -1,0 +1,5 @@
+{
+  "extends": "./src/tsconfig/node",
+  "include": ["./"],
+  "exclude": ["./dist"]
+}
