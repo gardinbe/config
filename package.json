@@ -32,7 +32,7 @@
   "scripts": {
     "build": "tsdown && node scripts/copy-tsconfig.ts",
     "fix": "oxlint --fix && oxfmt",
-    "check": "tsc -b tsconfig.json && oxlint && oxfmt --check"
+    "check": "tsc -b && oxlint && oxfmt --check"
   },
   "dependencies": {
     "eslint-plugin-perfectionist": "^5.9.0",
