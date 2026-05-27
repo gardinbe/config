@@ -54,6 +54,10 @@ export const config: OxlintConfig = {
     'no-unsafe-negation': 'warn',
     'no-unsafe-return': 'warn',
     'no-unused-expressions': 'warn',
+    'no-unused-vars': [
+      'error',
+      { fix: { imports: 'safe-fix', variables: 'safe-fix' } },
+    ],
     'no-useless-rename': 'warn',
     'no-var': 'warn',
     'object-shorthand': 'warn',
@@ -137,7 +141,6 @@ export const config: OxlintConfig = {
     'typescript/no-namespace': 'warn',
     'typescript/no-non-null-asserted-nullish-coalescing': 'warn',
     'typescript/no-require-imports': 'warn',
-    'typescript/no-unused-vars': 'warn',
     'typescript/prefer-for-of': 'warn',
     'typescript/prefer-literal-enum-member': 'warn',
     'typescript/prefer-nullish-coalescing': 'warn',
