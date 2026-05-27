@@ -56,6 +56,7 @@ export const config: OxlintConfig = {
     'no-unused-expressions': 'warn',
     'no-useless-rename': 'warn',
     'no-var': 'warn',
+    'object-shorthand': 'warn',
     'perfectionist/sort-array-includes': 'warn',
     'perfectionist/sort-arrays': 'warn',
     'perfectionist/sort-classes': 'warn',
