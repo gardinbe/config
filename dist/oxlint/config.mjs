@@ -127,6 +127,7 @@ const config = {
 			readonly: "generic"
 		}],
 		"typescript/ban-types": "warn",
+		"typescript/consistent-type-definitions": ["warn", "type"],
 		"typescript/consistent-type-imports": ["warn", { fixStyle: "inline-type-imports" }],
 		"typescript/no-namespace": "warn",
 		"typescript/no-non-null-asserted-nullish-coalescing": "warn",

@@ -129,6 +129,7 @@ export const config: OxlintConfig = {
       { default: 'generic', readonly: 'generic' },
     ],
     'typescript/ban-types': 'warn',
+    'typescript/consistent-type-definitions': ['warn', 'type'],
     'typescript/consistent-type-imports': [
       'warn',
       { fixStyle: 'inline-type-imports' },
