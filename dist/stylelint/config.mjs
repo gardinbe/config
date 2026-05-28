@@ -231,6 +231,8 @@ const config = {
 		"value-keyword-case": "lower",
 		/** Disallow vendor prefixes for values. */
 		"value-no-vendor-prefix": true,
+		/** Disallow unknown at-rules. */
+		"at-rule-no-unknown": [true, { ignoreAtRules: ["theme"] }],
 		/** Disallow hex colors. */
 		"color-no-hex": null,
 		/** Specify a list of disallowed functions. */
