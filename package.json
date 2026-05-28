@@ -39,7 +39,7 @@
     "postcss-styled": "^0.34.0",
     "stylelint-config-recess-order": "^7.7.0",
     "stylelint-gamut": "^2.0.1",
-    "stylelint-plugin-defensive-css": "^2.9.2",
+    "stylelint-plugin-defensive-css": "^2.9.3",
     "stylelint-plugin-logical-css": "^2.1.0",
     "stylelint-use-nesting": "^6.0.2"
   },
@@ -48,7 +48,7 @@
     "commander": "^14.0.3",
     "tsdown": "^0.22.0",
     "typescript": "^6.0.3",
-    "vite": "^8.0.13"
+    "vite": "^8.0.14"
   },
   "peerDependencies": {
     "oxfmt": ">=0.51",
