@@ -1,6 +1,6 @@
 {
   "name": "@gardinbe/config",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "private": true,
   "description": "Shared TypeScript, linting, and formatting configuration.",
   "repository": {
@@ -59,5 +59,5 @@
   "engines": {
     "node": ">=24.3.0"
   },
-  "packageManager": "pnpm@11.2.1"
+  "packageManager": "pnpm@11.18.0+sha512.33d83c77da82f49fba836925c6f1b841181ec3132b670639bd012f7075f5c7cf634c5f870147c19aae7478fac01df09d8892e880454896edd23ee9b33757563c"
 }

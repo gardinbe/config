@@ -37,6 +37,7 @@ const config = {
 		"import/consistent-type-specifier-style": ["warn", "prefer-inline"],
 		"import/no-absolute-path": "warn",
 		"import/no-duplicates": "warn",
+		"import/no-unassigned-import": ["warn", { allow: ["**/*.css"] }],
 		"import/unambiguous": "warn",
 		"no-alert": "warn",
 		"no-async-promise-executor": "warn",
