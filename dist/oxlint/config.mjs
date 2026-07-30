@@ -22,6 +22,7 @@ const config = {
 	],
 	rules: {
 		"array-callback-return": "warn",
+		"arrow-body-style": ["warn", "as-needed"],
 		"button-has-type": "warn",
 		"constructor-super": "warn",
 		curly: ["warn", "all"],

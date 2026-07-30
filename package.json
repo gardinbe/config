@@ -1,6 +1,6 @@
 {
   "name": "@gardinbe/config",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "private": true,
   "description": "Shared TypeScript, linting, and formatting configuration.",
   "repository": {
@@ -32,7 +32,8 @@
   "scripts": {
     "build": "tsdown && node scripts/copy-tsconfig.ts",
     "fix": "oxlint --fix && oxfmt",
-    "check": "tsc -b && oxlint && oxfmt --check"
+    "check": "tsc -b && oxlint && oxfmt --check",
+    "release": "node scripts/release.ts"
   },
   "dependencies": {
     "eslint-plugin-perfectionist": "^5.9.0",
