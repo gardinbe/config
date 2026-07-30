@@ -296,7 +296,7 @@ export const config: Config = {
   rules: {
     ...baseRules,
     /** Disallow unknown at-rules. */
-    'at-rule-no-unknown': [true, { ignoreAtRules: ['theme'] }],
+    'at-rule-no-unknown': [true, { ignoreAtRules: ['theme', 'reference'] }],
     /** Disallow hex colors. */
     'color-no-hex': null,
     /** Specify a list of disallowed functions. */
