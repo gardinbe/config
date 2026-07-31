@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import { cp, mkdir } from 'node:fs/promises'
 
 await mkdir('dist/tsconfig', { recursive: true })
