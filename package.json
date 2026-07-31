@@ -1,6 +1,6 @@
 {
   "name": "@gardinbe/config",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "private": true,
   "description": "Shared TypeScript, linting, and formatting configuration.",
   "repository": {

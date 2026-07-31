@@ -3,6 +3,7 @@
   "extends": "./base",
   "compilerOptions": {
     "lib": ["ESNext"],
+    "tsBuildInfoFile": "./node_modules/.cache/tsbuildinfo/tsconfig.node.tsbuildinfo",
     "types": ["node"]
   }
 }

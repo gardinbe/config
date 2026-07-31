@@ -3,6 +3,7 @@
   "extends": "./base",
   "compilerOptions": {
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "tsBuildInfoFile": "./node_modules/.cache/tsbuildinfo/tsconfig.client.tsbuildinfo",
     "types": []
   }
 }
