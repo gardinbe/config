@@ -56,13 +56,13 @@ const config = {
 		"no-new-func": "warn",
 		"no-object-constructor": "warn",
 		"no-promise-executor-return": "warn",
-		"no-redeclare": "warn",
+		"no-redeclare": "off",
 		"no-script-url": "warn",
 		"no-shadow": "warn",
 		"no-unsafe-negation": "warn",
 		"no-unsafe-return": "warn",
 		"no-unused-expressions": "warn",
-		"no-unused-vars": ["error", { fix: {
+		"no-unused-vars": ["warn", { fix: {
 			imports: "safe-fix",
 			variables: "safe-fix"
 		} }],
